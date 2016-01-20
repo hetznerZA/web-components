@@ -1,0 +1,25 @@
+{
+  "name": "web-components",
+  "authors": [
+    "UX <ux@hetzner.co.za>"
+  ],
+  "description": "Development server for custom web components",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {},
+  "dependencies": {
+    "hetzner-password": "git@github.hetzner.co.za:hetznerZA/hetzner-password.git",
+    "hetzner-email": "git@github.hetzner.co.za:hetznerZA/hetzner-email.git",
+    "hetzner-user-registration": "git@github.hetzner.co.za:hetznerZA/hetzner-user-registration.git"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "hetzner-email",
+  "version": "1.0.0",
+  "description": "An element that checks whether the email entered in the input field exists at Hetzner.",
+  "main": "hetnzer-email.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "http-server": "^0.8.5",
+    "vulcanize": "^1.14.0"
+  },
+  "devDependencies": {
+    "local-web-server": "^1.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ws --rewrite 'bower_components/* -> $1'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hetznerZA/hetzner-email.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.hetzner.co.za/hetznerZA/hetzner-email/issues"
+  },
+  "homepage": "https://github.hetzner.co.za/hetznerZA/hetzner-email#readme"
+}

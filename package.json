@@ -1,0 +1,19 @@
+{
+  "name": "web-components",
+  "version": "1.0.0",
+  "description": "Development server for custom web components",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ws --rewrite 'bower_components/* -> $1'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.hetzner.co.za:hetznerZA/web-components.git"
+  },
+  "author": "UX <ux@hetzner.co.za>",
+  "license": "ISC",
+  "devDependencies": {
+    "local-web-server": "^1.1.0"
+  }
+}

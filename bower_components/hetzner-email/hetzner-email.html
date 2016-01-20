@@ -1,0 +1,49 @@
+<link rel="import" href="/bower_components/iron-ajax/iron-ajax.html">
+<link rel="import" href="/bower_components/iron-ajax/iron-input.html">
+<link rel="import" href="/bower_components/paper-spinner/paper-spinner.html">
+
+<dom-module id="hetzner-email">
+  <template>
+    <!-- Import component css -->
+    <style>
+      :host {
+        display: block;
+        box-sizing: border-box;
+      }
+
+      .author img {
+        display: block;
+        float: left;
+        margin-right: 5px;
+        max-height: 100px;
+        max-width: 100px;
+      }
+
+      paper-spinner {
+        --paper-spinner-layer-1-color: #c60f10;
+        --paper-spinner-layer-2-color: #c60f10;
+        --paper-spinner-layer-3-color: #c60f10;
+        --paper-spinner-layer-4-color: #c60f10;
+      }
+    </style>
+    <!-- Inset content from caller -->
+    <content></content>
+
+    <iron-ajax
+        id="emailAjax"
+        url="https://2015.staging.hetzner.co.za"
+        headers='{"X-Requested-With": "XMLHttpRequest"}'
+        handle-as="json"
+        last-response="{{emailResponse}}"
+        on-response="showEmailStatus">
+    </iron-ajax>
+
+    <input is="iron-input" id="hetzner-email" type="text" required placeholder="john@example.com" value={{emailValue}} />
+
+    <paper-spinner id="emailSpinner" alt="Checking if email exists at Hetzner."></paper-spinner>
+
+  </template>
+</dom-module>
+
+<!-- Import component js -->
+<script src="hetzner-email.js"></script>

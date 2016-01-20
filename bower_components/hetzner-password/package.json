@@ -1,0 +1,23 @@
+{
+  "name": "hetzner-password",
+  "version": "1.0.0",
+  "description": "A custom html element handling password validation and generation",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test-cli": "xvfb-run ./node_modules/web-component-tester/bin/wct --skip-selenium-install --local chrome --color --skip-update-check --simpleOutput --expanded",
+    "test": "xvfb-run ./node_modules/web-component-tester/bin/wct",
+    "start": "ws --rewrite 'bower_components/* -> $1'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.hetzner.co.za:hetznerZA/hetzner-password.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "local-web-server": "^1.1.0"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "hetzner-password",
+  "authors": [
+    "UX <ux@hetzner.co.za>"
+  ],
+  "description": "A custom html element to accept, validate and generate a password.",
+  "keywords": [
+    "web-component",
+    "web-components",
+    "polymer",
+    "seed"
+  ],
+  "main": "hetzner-password.html",
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "homepage": "https://github.hetzner.co.za/hetznerZA/hetzner-password/",
+  "ignore": [
+    "/.*",
+    "/test/",
+    "/demo/"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.2.0",
+    "iron-input": "PolymerElements/iron-input#~1.0.8",
+    "paper-progress": "PolymerElements/paper-progress",
+    "iron-ajax": "PolymerElements/iron-ajax#~1.1.1"
+  },
+  "devDependencies": {},
+  "_release": "431204010f",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "431204010f476556a55a7ecce1a27f992342957a"
+  },
+  "_source": "git@github.hetzner.co.za:hetznerZA/hetzner-password.git",
+  "_target": "*",
+  "_originalSource": "git@github.hetzner.co.za:hetznerZA/hetzner-password.git"
+}
