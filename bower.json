@@ -20,6 +20,8 @@
   "dependencies": {
     "hetzner-password": "git@github.hetzner.co.za:hetznerZA/hetzner-password.git",
     "hetzner-email": "git@github.hetzner.co.za:hetznerZA/hetzner-email.git",
+    "hetzner-telephone": "git@github.hetzner.co.za:hetznerZA/hetzner-telephone.git",
+    "hetzner-country": "git@github.hetzner.co.za:hetznerZA/hetzner-country.git",
     "hetzner-user-registration": "git@github.hetzner.co.za:hetznerZA/hetzner-user-registration.git"
   }
 }
