@@ -22,6 +22,9 @@
     "hetzner-email": "git@github.hetzner.co.za:hetznerZA/hetzner-email.git",
     "hetzner-user-registration": "git@github.hetzner.co.za:hetznerZA/hetzner-user-registration.git",
     "hetzner-style-framework": "git@github.hetzner.co.za:hetznerZA/hetzner-style-framework.git",
-    "hetzner-header": "git@github.hetzner.co.za:hetznerZA/hetzner-header.git"
+    "hetzner-header": "git@github.hetzner.co.za:hetznerZA/hetzner-header.git",
+    "hetzner-telephone": "git@github.hetzner.co.za:hetznerZA/hetzner-telephone.git",
+    "hetzner-country": "git@github.hetzner.co.za:hetznerZA/hetzner-country.git",
+    "hetzner-user-registration": "git@github.hetzner.co.za:hetznerZA/hetzner-user-registration.git"
   }
 }
