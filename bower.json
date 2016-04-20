@@ -22,6 +22,7 @@
     "hetzner-email": "git@github.hetzner.co.za:hetznerZA/hetzner-email.git",
     "hetzner-telephone": "git@github.hetzner.co.za:hetznerZA/hetzner-telephone.git",
     "hetzner-country": "git@github.hetzner.co.za:hetznerZA/hetzner-country.git",
-    "hetzner-user-registration": "git@github.hetzner.co.za:hetznerZA/hetzner-user-registration.git"
+    "hetzner-user-registration": "git@github.hetzner.co.za:hetznerZA/hetzner-user-registration.git",
+    "hetzner-total": "git@github.hetzner.co.za:hetznerZA/hetzner-total.git"
   }
 }
