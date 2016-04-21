@@ -25,7 +25,10 @@
     "hetzner-header": "git@github.hetzner.co.za:hetznerZA/hetzner-header.git",
     "hetzner-telephone": "git@github.hetzner.co.za:hetznerZA/hetzner-telephone.git",
     "hetzner-country": "git@github.hetzner.co.za:hetznerZA/hetzner-country.git",
-    "hetzner-user-registration": "git@github.hetzner.co.za:hetznerZA/hetzner-user-registration.git",
-    "hetzner-total": "git@github.hetzner.co.za:hetznerZA/hetzner-total.git"
+    "hetzner-total": "git@github.hetzner.co.za:hetznerZA/hetzner-total.git",
+    "hetzner-ajax": "git@github.hetzner.co.za:hetznerZA/hetzner-ajax.git"
+  },
+  "resolutions": {
+    "iron-ajax": "~1.1.1"
   }
 }
