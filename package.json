@@ -9,7 +9,7 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "ws  -p $npm_package_config_port --rewrite 'bower_components/* -> $1'",
-        "deploy": "s3cmd --exclude=node_modules/* sync -r bower_components/* s3://wc.auto-h.net/"
+        "deploy": "s3cmd --exclude=node_modules/* sync -r bower_components/* s3://hetzner-web-components/"
     },
     "repository": {
         "type": "git",
