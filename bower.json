@@ -16,7 +16,9 @@
     "test",
     "tests"
   ],
-  "devDependencies": {},
+  "devDependencies": {
+      "sinon-1.17.3": "http://sinonjs.org/releases/sinon-1.17.3.js"
+  },
   "dependencies": {
     "hetzner-configuration-service-publish-form": "git@github.com:hetznerZA/hetzner-configuration-service-publish-form.git",
     "hetzner-password": "git@github.hetzner.co.za:hetznerZA/hetzner-password.git",
