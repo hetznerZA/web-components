@@ -17,11 +17,11 @@
     "tests"
   ],
   "devDependencies": {
-      "sinon-1.17.3": "http://sinonjs.org/releases/sinon-1.17.3.js"
+    "sinon-1.17.3": "http://sinonjs.org/releases/sinon-1.17.3.js"
   },
   "dependencies": {
     "hetzner-configuration-service-publish-form": "git@github.com:hetznerZA/hetzner-configuration-service-publish-form.git",
-    "hetzner-password": "git@github.hetzner.co.za:hetznerZA/hetzner-password.git",
+    "hetzner-password": "git@github.hetzner.co.za:hetznerZA/hetzner-password.git#master",
     "hetzner-email": "git@github.hetzner.co.za:hetznerZA/hetzner-email.git#master",
     "hetzner-user-registration": "git@github.hetzner.co.za:hetznerZA/hetzner-user-registration.git",
     "hetzner-header": "git@github.hetzner.co.za:hetznerZA/hetzner-header.git",
@@ -31,5 +31,8 @@
     "hetzner-ajax": "git@github.hetzner.co.za:hetznerZA/hetzner-ajax.git",
     "hetzner-code": "git@github.hetzner.co.za:hetznerZA/hetzner-code.git",
     "shopping-cart-prototype": "git@github.com:/hetznerZA/shopping-cart-prototype.git"
+  },
+  "resolutions": {
+    "iron-ajax": "~1.x"
   }
 }
