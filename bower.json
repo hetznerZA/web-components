@@ -24,10 +24,10 @@
     "hetzner-password": "git@gitlab1.jnb2.host-h.net:wc/password.git#master",
     "hetzner-email": "git@gitlab1.jnb2.host-h.net:wc/email.git#master",
     "hetzner-user-registration": "git@gitlab1.jnb2.host-h.net:wc/hetzner-user-registration.git",
-    "hetzner-header": "git@gitlab1.jnb2.host-h.net:wc/hetzner-header.git",
+    "wc-header": "git@gitlab1.jnb2.host-h.net:wc/header.git",
     "hetzner-telephone": "git@gitlab1.jnb2.host-h.net:wc/hetzner-telephone.git",
     "hetzner-country": "git@gitlab1.jnb2.host-h.net:wc/hetzner-country.git",
-    "hetzner-total": "git@hetzner-total:wc/hetzner-total.git",
+    "hetzner-total": "git@gitlab1.jnb2.host-h.net:wc/hetzner-total.git",
     "hetzner-ajax": "git@gitlab1.jnb2.host-h.net:wc/hetzner-ajax.git",
     "hetzner-code": "git@gitlab1.jnb2.host-h.net:wc/hetzner-code.git",
     "shopping-cart-prototype": "git@github.com:/hetznerZA/shopping-cart-prototype.git"
