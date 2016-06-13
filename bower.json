@@ -20,7 +20,7 @@
     "sinon-1.17.3": "http://sinonjs.org/releases/sinon-1.17.3.js"
   },
   "dependencies": {
-    "hetzner-configuration-service-publish-form": "git@github.com:hetznerZA/hetzner-configuration-service-publish-form.git",
+    "wc-configuration-service": "git@gitlab1.jnb2.host-h.net:wc/configuration-service.git",
     "hetzner-password": "git@gitlab1.jnb2.host-h.net:wc/password.git#master",
     "hetzner-email": "git@gitlab1.jnb2.host-h.net:wc/email.git#master",
     "hetzner-user-registration": "git@gitlab1.jnb2.host-h.net:wc/hetzner-user-registration.git",
