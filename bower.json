@@ -30,7 +30,8 @@
     "hetzner-total": "git@gitlab1.jnb2.host-h.net:wc/hetzner-total.git",
     "hetzner-ajax": "git@gitlab1.jnb2.host-h.net:wc/hetzner-ajax.git",
     "hetzner-code": "git@gitlab1.jnb2.host-h.net:wc/hetzner-code.git",
-    "shopping-cart-prototype": "git@github.com:/hetznerZA/shopping-cart-prototype.git"
+    "shopping-cart-prototype": "git@github.com:/hetznerZA/shopping-cart-prototype.git",
+    "wc-notify": "git@gitlab1.jnb2.host-h.net:wc/notify.git"
   },
   "resolutions": {
     "iron-ajax": "~1.x"
