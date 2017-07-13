@@ -17,23 +17,26 @@
     "tests"
   ],
   "devDependencies": {
-    "sinon-1.17.3": "http://sinonjs.org/releases/sinon-1.17.3.js"
+    "sinon-1.17.3": "http://sinonjs.org/releases/sinon-1.17.3.js",
+    "iron-demo-helpers": "1.x",
+    "iron-component-page": "1.x"
   },
   "dependencies": {
-    "wc-configuration-service": "git@gitlab1.jnb2.host-h.net:wc/configuration-service.git",
-    "hetzner-password": "git@gitlab1.jnb2.host-h.net:wc/password.git#master",
-    "hetzner-email": "git@gitlab1.jnb2.host-h.net:wc/email.git#master",
-    "hetzner-user-registration": "git@gitlab1.jnb2.host-h.net:wc/hetzner-user-registration.git",
-    "wc-header": "git@gitlab1.jnb2.host-h.net:wc/header.git",
-    "hetzner-telephone": "git@gitlab1.jnb2.host-h.net:wc/hetzner-telephone.git",
-    "hetzner-country": "git@gitlab1.jnb2.host-h.net:wc/hetzner-country.git",
-    "hetzner-total": "git@gitlab1.jnb2.host-h.net:wc/hetzner-total.git",
-    "hetzner-ajax": "git@gitlab1.jnb2.host-h.net:wc/hetzner-ajax.git",
-    "hetzner-code": "git@gitlab1.jnb2.host-h.net:wc/hetzner-code.git",
-    "wc-library": "git@gitlab1.jnb2.host-h.net:wc/wc-library.git",
-    "kh-cart": "git@gitlab1.jnb2.host-h.net:wc/kh-cart.git",
-    "wc-notify": "git@gitlab1.jnb2.host-h.net:wc/notify.git",
-    "wc-textarea-yaml": "git@gitlab1.jnb2.host-h.net:wc/wc-textarea-yaml.git",
+    "wc-opf-launcher": "git@gitlab.host-h.net:wc/wc-opf-launcher.git",
+    "wc-configuration-service": "git@gitlab.host-h.net:wc/configuration-service.git",
+    "hetzner-password": "git@gitlab.host-h.net:wc/password.git#master",
+    "hetzner-email": "git@gitlab.host-h.net:wc/email.git#master",
+    "hetzner-user-registration": "git@gitlab.host-h.net:wc/hetzner-user-registration.git",
+    "wc-header": "git@gitlab.host-h.net:wc/header.git",
+    "hetzner-telephone": "git@gitlab.host-h.net:wc/hetzner-telephone.git",
+    "hetzner-country": "git@gitlab.host-h.net:wc/hetzner-country.git",
+    "hetzner-total": "git@gitlab.host-h.net:wc/hetzner-total.git",
+    "hetzner-ajax": "git@gitlab.host-h.net:wc/hetzner-ajax.git",
+    "hetzner-code": "git@gitlab.host-h.net:wc/hetzner-code.git",
+    "wc-library": "git@gitlab.host-h.net:wc/wc-library.git",
+    "kh-cart": "git@gitlab.host-h.net:wc/kh-cart.git",
+    "wc-notify": "git@gitlab.host-h.net:wc/notify.git",
+    "wc-textarea-yaml": "git@gitlab.host-h.net:wc/wc-textarea-yaml.git",
     "wc-alert": "git@gitlab.host-h.net:wc/wc-alert.git#master"
   },
   "resolutions": {
