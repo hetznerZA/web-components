@@ -40,6 +40,11 @@
     "wc-alert": "git@gitlab.host-h.net:wc/wc-alert.git#master"
   },
   "resolutions": {
-    "iron-ajax": "~1.x"
+    "iron-ajax": "~1.x",
+    "wc-library": "master",
+    "wc-header": "master",
+    "hetzner-code": "master",
+    "wc-notify": "master",
+    "polymer": "^1.9.2"
   }
 }
